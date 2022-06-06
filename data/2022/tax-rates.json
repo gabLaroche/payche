@@ -1,0 +1,244 @@
+{
+  "federal": {
+    "source": "https://www.canada.ca/en/financial-consumer-agency/services/financial-toolkit/taxes/taxes-2/5.html",
+    "brackets": [
+      {
+        "percentage": 0.15,
+        "lowest_amount": 0
+      },
+      {
+        "percentage": 0.205,
+        "lowest_amount": 48535
+      },
+      {
+        "percentage": 0.26,
+        "lowest_amount": 97069
+      },
+      {
+        "percentage": 0.29,
+        "lowest_amount": 150473
+      },
+      {
+        "percentage": 0.29,
+        "lowest_amount": 214368
+      }
+    ]
+  },
+  "provincial": {
+    "AB": {
+      "full_name": "Alberta",
+      "source": "https://www.alberta.ca/personal-income-tax.aspx",
+      "brackets": [
+        {
+          "percentage": 10,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 12,
+          "lowest_amount": 131221
+        },
+        {
+          "percentage": 13,
+          "lowest_amount": 157465
+        },
+        {
+          "percentage": 14,
+          "lowest_amount": 209953
+        },
+        {
+          "percentage": 15,
+          "lowest_amount": 314929
+        }
+      ]
+    },
+    "BC": {
+      "full_name": "British Columbia",
+      "source": "https://www2.gov.bc.ca/gov/content/taxes/income-taxes/personal/tax-rates",
+      "brackets": [
+        {
+          "percentage": 0.0506,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.077,
+          "lowest_amount": 42185
+        },
+        {
+          "percentage": 0.105,
+          "lowest_amount": 84370
+        },
+        {
+          "percentage": 0.1229,
+          "lowest_amount": 96867
+        },
+        {
+          "percentage": 0.1470,
+          "lowest_amount": 117624
+        },
+        {
+          "percentage": 0.1680,
+          "lowest_amount": 159484
+        },
+        {
+          "percentage": 0.205,
+          "lowest_amount": 222421
+        }
+      ]
+    },
+    "MB": {
+      "full_name": "Manitoba",
+      "source": "https://www.gov.mb.ca/finance/personal/ptaxes.html",
+      "brackets": [
+        {
+          "percentage": 0.108,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.1275,
+          "lowest_amount": 33390
+        },
+        {
+          "percentage": 0.174,
+          "lowest_amount": 72165
+        }
+      ]
+    },
+    "NB": {
+      "full_name": "New Brunswick",
+      "source": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/provincial-territorial-tax-credits-individuals/new-brunswick.html",
+      "brackets": [
+        {
+          "percentage": 0.0968,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.1482,
+          "lowest_amount": 43402
+        },
+        {
+          "percentage": 0.1652,
+          "lowest_amount": 86804
+        },
+        {
+          "percentage": 0.1784,
+          "lowest_amount": 141123
+        },
+        {
+          "percentage": 0.203,
+          "lowest_amount": 160777
+        }
+      ]
+    },
+    "NL": {
+      "full_name": "Newfoundland and Labrador",
+      "source": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/provincial-territorial-tax-credits-individuals/newfoundland-labrador.html",
+      "brackets": [
+        {
+          "percentage": 0.807,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.145,
+          "lowest_amount":37930
+        },
+        {
+          "percentage": 0.158,
+          "lowest_amount":75859
+        },
+        {
+          "percentage": 0.173,
+          "lowest_amount":135433
+        },
+        {
+          "percentage": 0.183,
+          "lowest_amount":189604
+        }
+      ]
+    },
+    "NT": {
+      "full_name": "Northwest Territories",
+      "source": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/provincial-territorial-tax-credits-individuals/northwest-territories.html",
+      "brackets": [
+        {
+          "percentage": 0.059,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.086,
+          "lowest_amount": 43958
+        },
+        {
+          "percentage": 0.122,
+          "lowest_amount": 87917
+        },
+        {
+          "percentage": 0.1405,
+          "lowest_amount": 142933
+        }
+      ]
+    },
+    "NS": {
+      "full_name": "Nova Scotia",
+      "brackets": [
+        {
+          "percentage": 0,
+          "lowest_amount": 0
+        }
+      ]
+    },
+    "NU": {
+      "full_name": "Nunavut",
+      "brackets": [
+        {
+          "percentage": 0,
+          "lowest_amount": 0
+        }
+      ]
+    },
+    "ON": {
+      "full_name": "Ontario",
+      "brackets": [
+        {
+          "percentage": 0,
+          "lowest_amount": 0
+        }
+      ]
+    },
+    "PE": {
+      "full_name": "Prince Edward Island",
+      "brackets": [
+        {
+          "percentage": 0,
+          "lowest_amount": 0
+        }
+      ]
+    },
+    "QC": {
+      "full_name": "Québec",
+      "brackets": [
+        {
+          "percentage": 0,
+          "lowest_amount": 0
+        }
+      ]
+    },
+    "SK": {
+      "full_name": "Saskatchewan",
+      "brackets": [
+        {
+          "percentage": 0,
+          "lowest_amount": 0
+        }
+      ]
+    },
+    "YT": {
+      "full_name": "Yukon",
+      "brackets": [
+        {
+          "percentage": 0,
+          "lowest_amount": 0
+        }
+      ]
+    }
+  }
+}
