@@ -1,0 +1,364 @@
+{
+  "federal": {
+    "source": "https://www.canada.ca/en/financial-consumer-agency/services/financial-toolkit/taxes/taxes-2/5.html",
+    "brackets": [
+      {
+        "percentage": 0.15,
+        "lowest_amount": 0
+      },
+      {
+        "percentage": 0.205,
+        "lowest_amount": 49020
+      },
+      {
+        "percentage": 0.26,
+        "lowest_amount": 98040
+      },
+      {
+        "percentage": 0.29,
+        "lowest_amount": 151978
+      },
+      {
+        "percentage": 0.33,
+        "lowest_amount": 216511
+      }
+    ]
+  },
+  "provincial": [
+    {
+      "abbreviation": "AB",
+      "full_name": "Alberta",
+      "brackets": [
+        {
+          "percentage": 10,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.12,
+          "lowest_amount": 131221
+        },
+        {
+          "percentage": 0.13,
+          "lowest_amount": 157465
+        },
+        {
+          "percentage": 0.14,
+          "lowest_amount": 209953
+        },
+        {
+          "percentage": 0.15,
+          "lowest_amount": 314929
+        }
+      ]
+    },
+    {
+      "abbreviation": "BC",
+      "full_name": "British Columbia",
+      "brackets": [
+        {
+          "percentage": 0.0506,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.077,
+          "lowest_amount": 42185
+        },
+        {
+          "percentage": 0.105,
+          "lowest_amount": 84370
+        },
+        {
+          "percentage": 0.1229,
+          "lowest_amount": 96867
+        },
+        {
+          "percentage": 0.1470,
+          "lowest_amount": 117624
+        },
+        {
+          "percentage": 0.1680,
+          "lowest_amount": 159484
+        },
+        {
+          "percentage": 0.205,
+          "lowest_amount": 222421
+        }
+      ]
+    },
+    {
+      "abbreviation": "MB",
+      "full_name": "Manitoba",
+      "brackets": [
+        {
+          "percentage": 0.108,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.1275,
+          "lowest_amount": 33724
+        },
+        {
+          "percentage": 0.174,
+          "lowest_amount": 72885
+        }
+      ]
+    },
+    {
+      "abbreviation": "NB",
+      "full_name": "New Brunswick",
+      "brackets": [
+        {
+          "percentage": 0.0968,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.1482,
+          "lowest_amount": 43836
+        },
+        {
+          "percentage": 0.1652,
+          "lowest_amount": 87872
+        },
+        {
+          "percentage": 0.1784,
+          "lowest_amount": 142535
+        },
+        {
+          "percentage": 0.203,
+          "lowest_amount": 162383
+        }
+      ]
+    },
+    {
+      "abbreviation": "NL",
+      "full_name": "Newfoundland and Labrador",
+      "brackets": [
+        {
+          "percentage": 0.807,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.145,
+          "lowest_amount":38082
+        },
+        {
+          "percentage": 0.158,
+          "lowest_amount":76162
+        },
+        {
+          "percentage": 0.173,
+          "lowest_amount":135974
+        },
+        {
+          "percentage": 0.183,
+          "lowest_amount":190364
+        }
+      ]
+    },
+    {
+      "abbreviation": "NT",
+      "full_name": "Northwest Territories",
+      "brackets": [
+        {
+          "percentage": 0.059,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.086,
+          "lowest_amount": 44397
+        },
+        {
+          "percentage": 0.122,
+          "lowest_amount": 88797
+        },
+        {
+          "percentage": 0.1405,
+          "lowest_amount": 144362
+        }
+      ]
+    },
+    {
+      "abbreviation": "NS",
+      "full_name": "Nova Scotia",
+      "brackets": [
+        {
+          "percentage": 0.0879,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.1495,
+          "lowest_amount": 29591
+        },
+        {
+          "percentage": 0.1667,
+          "lowest_amount": 59181
+        },
+        {
+          "percentage": 0.175,
+          "lowest_amount": 93001
+        },
+        {
+          "percentage": 0.21,
+          "lowest_amount": 150000
+        }
+      ]
+    },
+    {
+      "abbreviation": "NU",
+      "full_name": "Nunavut",
+      "brackets": [
+        {
+          "percentage": 0.04,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.07,
+          "lowest_amount": 46741
+        },
+        {
+          "percentage": 0.09,
+          "lowest_amount": 93481
+        },
+        {
+          "percentage": 0.115,
+          "lowest_amount": 151979
+        }
+      ]
+    },
+    {
+      "abbreviation": "ON",
+      "full_name": "Ontario",
+      "brackets": [
+        {
+          "percentage": 0.0505,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.0505,
+          "lowest_amount": 45143
+        },
+        {
+          "percentage": 0.1116,
+          "lowest_amount": 90288
+        },
+        {
+          "percentage": 0.1216,
+          "lowest_amount": 150001
+        },
+        {
+          "percentage": 0.1316,
+          "lowest_amount": 220001
+        }
+      ]
+    },
+    {
+      "abbreviation": "PEI",
+      "full_name": "Prince Edward Island",
+      "brackets": [
+        {
+          "percentage": 0.98,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.138,
+          "lowest_amount": 31985
+        },
+        {
+          "percentage": 0.167,
+          "lowest_amount": 63969
+        }
+      ]
+    },
+    {
+      "abbreviation": "QC",
+      "full_name": "Québec",
+      "brackets": [
+        {
+          "percentage": 0.15,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.20,
+          "lowest_amount": 45106
+        },
+        {
+          "percentage": 0.24,
+          "lowest_amount": 90201
+        },
+        {
+          "percentage": 0.2575,
+          "lowest_amount": 109756
+        }
+      ],
+      "additional_deductions": {
+        "ei": {
+          "rate": 0.0120,
+          "max_contribution": 723.60,
+          "max_earnings": 60300
+        },
+        "qpp": {
+          "rate": 0.0615,
+          "max_contribution": 3776.10,
+          "max_earnings": 61400
+        },
+        "qpip": {
+          "rate": 0.00494,
+          "max_contribution": 434.72,
+          "max_earnings": 88000
+        }
+      }
+    },
+    {
+      "abbreviation": "SK",
+      "full_name": "Saskatchewan",
+      "brackets": [
+        {
+          "percentage": 0.105,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.125,
+          "lowest_amount": 45678
+        },
+        {
+          "percentage": 0.145,
+          "lowest_amount": 130507
+        }
+      ]
+    },
+    {
+      "abbreviation": "YT",
+      "full_name": "Yukon",
+      "brackets": [
+        {
+          "percentage": 0.064,
+          "lowest_amount": 0
+        },
+        {
+          "percentage": 0.109,
+          "lowest_amount": 98041
+        },
+        {
+          "percentage": 0.128,
+          "lowest_amount": 151979
+        },
+        {
+          "percentage": 0.15,
+          "lowest_amount": 500000
+        }
+      ]
+    }
+  ],
+  "additional_deductions": {
+    "cpp": {
+      "rate": 0.0570,
+      "max_contribution": 3500,
+      "max_earnings": 64900
+    },
+    "ei": {
+      "rate": 0.0158,
+      "max_contribution": 952.74,
+      "max_earnings": 60300
+    }
+  }
+}
