@@ -1,15 +1,18 @@
 <template>
 	<calculator />
+<!--	<pie-chart/>-->
 </template>
 
 <script>
-import Calculator from "./Calculator/Calculator.vue";
 import {mapActions, mapMutations, mapState} from "vuex";
+import { PieChart } from 'vue-chart-3';
+import Calculator from "./Calculator/Calculator.vue";
 
 export default {
 	name: 'Home',
 	components: {
 		Calculator,
+		PieChart,
 	},
 	computed: {
 		...mapState({

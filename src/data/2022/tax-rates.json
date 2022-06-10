@@ -1,6 +1,5 @@
 {
   "federal": {
-    "source": "https://www.canada.ca/en/financial-consumer-agency/services/financial-toolkit/taxes/taxes-2/5.html",
     "brackets": [
       {
         "percentage": 0.15,

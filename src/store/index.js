@@ -8,7 +8,8 @@ const store = new Vuex.Store({
 		salaryRates: [],
 		province: null,
 		rate: null,
-		income: null
+		income: null,
+		calculatedInformation: null,
 	},
 	mutations: {
 		setSalaryRates (state) {
