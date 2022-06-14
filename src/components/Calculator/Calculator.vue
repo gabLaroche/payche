@@ -37,12 +37,12 @@ export default {
 	components: {CalculatorInput},
 	computed: {
 		...mapState({
-			income: state => state.income,
-			province: state => state.province,
-			rate: state => state.rate,
-			hours: state => state.hours,
-			taxRates: state => state.taxRatesData,
-			salaryRates: state => state.salaryRates,
+			income: state => state.calculator.income,
+			province: state => state.calculator.province,
+			rate: state => state.calculator.rate,
+			hours: state => state.calculator.hours,
+			taxRates: state => state.calculator.taxRatesData,
+			salaryRates: state => state.calculator.salaryRates,
 		}),
 		isDisabled() {
 			return !this.income || !this.hours

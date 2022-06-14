@@ -51,12 +51,12 @@ export default {
 	},
 	computed: {
 		...mapState({
-			hours: state => state.hours,
-			taxRates: state => state.taxRatesData,
-			salaryRates: state => state.salaryRates,
-			income: state => state.income,
-			rate: state => state.rate,
-			province: state => state.province,
+			hours: state => state.calculator.hours,
+			taxRates: state => state.calculator.taxRatesData,
+			salaryRates: state => state.calculator.salaryRates,
+			income: state => state.calculator.income,
+			rate: state => state.calculator.rate,
+			province: state => state.calculator.province,
 		}),
 		options() {
 			if (this.type === 'income' || this.type === 'hours') {
@@ -80,10 +80,10 @@ export default {
 	},
 	methods: {
 		...mapMutations([
-			'setIncome',
-			'setHours',
-			'setRate',
-			'setProvince'
+			'calculator/setIncome',
+			'calculator/setHours',
+			'calculator/setRate',
+			'calculator/setProvince'
 		]),
 		setValue($event) {
 			switch (this.type) {

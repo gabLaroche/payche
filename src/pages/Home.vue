@@ -6,7 +6,7 @@
 <script>
 import {mapActions, mapMutations, mapState} from "vuex";
 import { PieChart } from 'vue-chart-3';
-import Calculator from "./Calculator/Calculator.vue";
+import Calculator from "../components/Calculator/Calculator.vue";
 
 export default {
 	name: 'Home',
@@ -23,20 +23,21 @@ export default {
 	},
 	watch: {
 		hours() {
-			this.setSalaryRatesAction();
+			this.setSalaryRates();
 		}
 	},
 	methods: {
 		...mapActions([
-			'setSalaryRatesAction',
+			'calculator/setSalaryRatesAction',
 		]),
 		...mapMutations([
-			'setRate',
-			'setProvince'
+			'calculator/setRate',
+			'calculator/setProvince',
+			'calculator/setSalaryRates'
 		]),
 	},
-	mounted() {
-		this.setSalaryRatesAction();
+	async mounted() {
+		await this.setSalaryRates();
 		this.setRate(this.salaryRates[0]);
 		this.setProvince(this.taxRatesData.provincial[0]);
 	}
